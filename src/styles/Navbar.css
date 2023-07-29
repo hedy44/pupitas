@@ -1,0 +1,14 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Cor de fundo da barra de navegação */
+    padding: 1rem; /* Espaçamento interno da barra de navegação */
+    color: #fff; /* Cor do texto na barra de navegação */
+  }
+
+
+  .logo {
+    font-size: 1.5rem; /* Tamanho do texto do logo */
+    font-weight: bold; /* Texto em negrito */
+  }
