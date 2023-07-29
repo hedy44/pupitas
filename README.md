@@ -1,42 +1,39 @@
 # Pupitas
 
-Bem-vindo ao projeto Pupitas, um site de roupas para crianças!
+Welcome to Pupitas, a children's clothing website!
 
-## Descrição
+## Description
 
-Pupitas é um site de comércio eletrônico especializado em roupas casuais para crianças de todas as idades. Os pais poderão navegar pelas categorias de roupas para meninos e meninas e fazer reservas para retirada na loja física.
+Pupitas is an e-commerce website specializing in casual clothing for children of all ages. Parents can browse clothing categories for boys and girls and make reservations for in-store pickup.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- React.js 
+- React.js
 - HTML
 - CSS
 - JavaScript
 
-## Instruções de Instalação
+## Installation Instructions
 
-1. Certifique-se de ter o Node.js instalado em seu computador.
-2. Clone este repositório usando o comando `git clone https://github.com/Hernani-Diniz/pupitas.git` ou faça o download do arquivo ZIP e extraia-o.
-3. Navegue até a pasta do projeto: `cd pupitas`
-4. Instale as dependências do projeto: `npm install`
+1. Make sure you have Node.js installed on your computer.
+2. Clone this repository using the command `git clone https://github.com/Hernani-Diniz/pupitas.git` or download the ZIP file and extract it.
+3. Navigate to the project folder: `cd pupitas`
+4. Install project dependencies: `npm install`
 
-## Como Executar o Projeto
+## How to Run the Project
 
-No diretório do projeto, você pode executar o seguinte comando:
+In the project directory, you can run the following command:
 
-### Para React:
+### For React:
 
 npm start
 
+This will start the development server. Open [http://localhost:3000](http://localhost:3000) in your browser to view the site.
 
-Isso iniciará o servidor de desenvolvimento. Abra [http://localhost:3000](http://localhost:3000) no seu navegador para visualizar o site.
+## Contribution
 
-## Contribuição
+If you would like to contribute to the project, feel free to open a pull request.
 
-Se você deseja contribuir para o projeto, sinta-se à vontade para abrir um pull request.
+## License
 
-## Licença
-
-Este projeto é licenciado sob a licença [MIT](https://opensource.org/licenses/MIT).
-
-
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
