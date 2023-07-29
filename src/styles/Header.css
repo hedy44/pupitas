@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    padding: 1rem; /* Espaçamento interno do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+  }
+  
+  .logo {
+    font-size: 1.5rem; /* Tamanho do texto do logo */
+    font-weight: bold; /* Texto em negrito */
+  }
