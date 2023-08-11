@@ -1,3 +1,5 @@
+@import "../styles/global.css";
+
 .product-card {
     /* Estilos do cartão de produto (seguindo o estilo do site referência) */
     width: 200px;

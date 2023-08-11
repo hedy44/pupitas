@@ -1,14 +1,37 @@
+@import "../styles/global.css";
+
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    background-color: #333; /* Cor de fundo da barra de navegação */
-    padding: 1rem; /* Espaçamento interno da barra de navegação */
-    color: #fff; /* Cor do texto na barra de navegação */
+    background-color:var(--color-shade-0); /* Cor de fundo da barra de navegação */
+    padding: 1rem 0; /* Espaçamento interno da barra de navegação */
+    height: 100%;
+    width:100%;
   }
 
 
-  .logo {
-    font-size: 1.5rem; /* Tamanho do texto do logo */
-    font-weight: bold; /* Texto em negrito */
-  }
+  /* Estilos para os links de navegação */
+.nav-links {
+  font-size: 1.3rem;
+  font-weight: bold;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-right: 20px;
+  
+}
+
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff; 
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  height:100%;
+}
+
+.nav-links a:hover {
+  background-color: var(--color-shade-1);
+}
