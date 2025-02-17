@@ -1,0 +1,16 @@
+.header {
+    text-align: center;
+    background-color: #ffb6c1; /* Rosa claro para combinar com o tema */
+    padding: 50px 0;
+    color: white;
+  }
+  
+  .header h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
