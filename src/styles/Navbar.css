@@ -1,0 +1,55 @@
+/* Estilização da Navbar */
+.navbar {
+    position: fixed; /* Mantém a navbar fixa no topo */
+    top: 0;
+    width: 100%;
+    background-color: #ffb6c1; /* Rosa claro para combinar com o estilo infantil */
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    z-index: 1000; /* Garante que a navbar fique acima de outros elementos */
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 30px; /* Espaçamento entre os links */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #006400; /* Verde escuro para contraste */
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #32CD32; /* Verde claro ao passar o mouse */
+  }
+
+  /* Estilos do logotipo */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+  flex-grow: 1; /* Isso centraliza a logo */
+}
+
+.logo img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 3px solid #ff69b4; /* Bordas arredondadas para combinar com o tema */
+  object-fit: cover;
+}
