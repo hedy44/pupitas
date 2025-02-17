@@ -1,25 +1,14 @@
 import React from 'react';
+import '../styles/Produtos.css';
 
 function Produtos() {
   return (
-    <div>
-      <h1>Produtos da loja</h1>
-      <div>
-        <h2>Produto 1</h2>
-        <p>Descrição do produto 1</p>
-        <button>Reservar</button>
+    <section className="produtos">
+      <h2>Produtos da Loja</h2>
+      <div className="produtos-lista">
+        <p>Aqui ficará a lista de produtos...</p>
       </div>
-      <div>
-        <h2>Produto 2</h2>
-        <p>Descrição do produto 2</p>
-        <button>Reservar</button>
-      </div>
-      <div>
-        <h2>Produto 3</h2>
-        <p>Descrição do produto 3</p>
-        <button>Reservar</button>
-      </div>
-    </div>
+    </section>
   );
 }
 

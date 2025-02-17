@@ -1,0 +1,16 @@
+.produtos {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .produtos h2 {
+    font-size: 2em;
+    color: #ff69b4;
+  }
+  
+  .produtos-lista {
+    margin-top: 20px;
+    border: 2px dashed #ff69b4; /* Apenas para visualizar o espaço */
+    padding: 20px;
+  }
+  
