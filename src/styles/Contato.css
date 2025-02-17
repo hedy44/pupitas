@@ -1,0 +1,46 @@
+.contato {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .contato h2 {
+    font-size: 2em;
+    color: #ff69b4;
+    margin-bottom: 20px;
+  }
+  
+  .contato p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 15px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 2px solid #ff69b4;
+    border-radius: 8px;
+    font-size: 1em;
+  }
+  
+  button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff1493;
+  }
+  
