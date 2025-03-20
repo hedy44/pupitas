@@ -1,10 +1,10 @@
 import React from 'react';
-import '../styles/Produtos.css';
+import '../styles/Destaques.css';
 
-function Produtos() {
+function Destaques() {
   return (
     <section className="produtos">
-      <h2>Produtos da Loja</h2>
+      <h2>Produtos em Destaque</h2>
       <div className="produtos-lista">
         <p>Aqui ficará a lista de produtos...</p>
       </div>
@@ -12,4 +12,4 @@ function Produtos() {
   );
 }
 
-export default Produtos;
+export default Destaques;

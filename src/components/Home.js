@@ -1,6 +1,6 @@
 import React,  { useState } from "react";
 import Hero from "./Hero";
-import Produtos from "./Produtos";
+import Destaques from "./Destaques";
 import Contato from "./Contato";
 import Footer from "./Footer";
 import Banners from "./Banners";
@@ -12,7 +12,7 @@ function Home() {
         <div className="home">
          <Hero />
          <Banners />
-         <Produtos />
+         <Destaques />
          <Contato />
          <Footer />
         

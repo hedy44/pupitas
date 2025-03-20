@@ -3,7 +3,7 @@ import './App.css';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 
-import Produtos from './components/Produtos';
+import Destaques from './components/Destaques';
 
 function App() {
   return (
