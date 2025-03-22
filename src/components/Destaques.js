@@ -6,7 +6,7 @@ import { Pagination, Navigation, Autoplay } from 'swiper/modules'; // Importa os
 
 import '../styles/Destaques.css';
 
-// Importando imagens diretamente da pasta assets
+//  imagens diretamente da pasta assets
 import produto1 from "../assets/produtos/Foto2.jpg";
 import produto2 from "../assets/produtos/Foto3.jpg";
 import produto3 from "../assets/produtos/Foto4.jpg";
